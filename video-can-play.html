@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        video {
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <video
+        id="video"
+        src="https://file.style3d.com/website/Company/00cc3b6a-4b77-406c-8479-2f444f6cac90/displayhall/video_20221008175407_3073_9%E6%9C%887%E6%97%A5/9%E6%9C%887%E6%97%A5.mp4"
+    />
+    <script>
+        video.oncanplaythrough = function() {
+          console.log("视频在当前浏览器可以直接播放");
+        };
+    </script>
+</body>
+</html>
